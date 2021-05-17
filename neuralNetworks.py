@@ -4,9 +4,6 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 
-# DEVO PENALIZAR
-# DEVO PENALIZAR NO MOMENTO QUE ELE AUMENTAR O BKP
-# DEVO MELHORAR TEMPERATURA (COMECA BAIXO, TERMINA ALTO)
 class DqnKeras(object):
     def __init__(self, permutation_size, gamma = 0.99, temperature = 0.5):
         self.permutation_size = permutation_size
